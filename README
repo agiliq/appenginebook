@@ -1,0 +1,6 @@
+This is a project to write an open source Google Appengine Book. The intended audience
+already knows Python and maybe a little web development.
+
+The style of this book is a mixture of Dive Into Python and Practical Django Projects,
+where we write the code and explain it. We build useful apps on appengine, moving from very simpl
+to full fledged, to teach Appengine.

@@ -1,0 +1,25 @@
+How the book is organised?
+-----------------------------
+
+The book targets experienced developers, as a result we do not spend a lot of
+time on basic stuff. What has been covered earlier is linked to, instead of
+explaining again. For example, we do not spend a lot of time explaining how to
+install things, instead linking to Google's official documentation.
+
+In Chapter 1, we write the simplest appengine application, explaining app.yaml
+and other cruft needed to get things to work.
+
+In chapter 2, we build a link shortener, explaining the templating system in the
+process.
+
+In Chapter 3, we build a pastebin, explaining the Datastore in the process.
+
+In Chapter 4, we build a basic blog, explaining the User system in the process.
+
+In chapter 5, we build a twitter mashup, explaing the Urlfetch, mail and other
+services.
+
+In chapter 6, we build a twitter clone using Django, explaining how to use
+Django on appengine.
+
+
