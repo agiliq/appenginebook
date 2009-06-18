@@ -1,3 +1,25 @@
 =======================
 Introduction
 =======================
+
+Google Appengine is a cloud computing environment offered by Google. Initially
+with Python and now JVM support it provides an instantly deployable and (in
+theory at least) infinitely scalable system. In this book, you will learn how to
+build web application using this new system.
+
+With Appengine, you are provided,
+
+1. A (Python or JVM) runtime.
+2. A Datastore (Which is a replacement for database)
+3. A web framework. (And you can use Django and other frameworks, if you wish)
+4. Other needed services like Urlfetch(to access remote sites), mail, user
+system(which ties to google accounts) and memcached.
+
+What you don't get,
+
+1. Your runtime is constrained. System calls dont work. You cant use threading.
+urllib and mail have appengine specific replacements.
+2. The Datastore is not a Database. You can not use joins. (But we will see ways
+to work around that)
+
+
